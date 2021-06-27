@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* header */
+
+header {
+    height: 60px;
+    width: 100%;
+}
+
+header .header-80 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header-80 .logo {
+    cursor: pointer;
+}
+
+.header-80 .logo img {
+    height: 45px;
+}
+
+.header-80 .header-right ul li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    padding: 0px 5px;
+    font-size: smaller;
+}
+
+.header-80 .header-right ul li.active,
+.header-80 .header-right ul li:hover {
+    border-bottom: 5px solid #58A0FA;
+    color: #58A0FA;
+}
+
+.header-80 .header-right ul li a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-template .head-jumbotron {
+    background: red;
+    widows: 100%;
+    height: 450px;
+    background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+}
+
+
+/* /header */
+
+
+/* main */
+
+main.home {
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #313131;
+}
+
+main.comics {
+    text-align: left;
+    background-color: #1c1c1c;
+    color: white;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+main.comics .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main.comics .main-left {
+    float: left;
+    width: 30%;
+}
+
+main.comics .main-left li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+main.comics .main-left li:hover {
+    background-color: red;
+}
+
+main.comics .main-left li.active {
+    background-color: red;
+}
+
+main.comics .main-right {
+    float: left;
+    width: 69%;
+    border-left: 2px solid gray;
+    margin-left: 1%;
+    height: 100%;
+    padding: 5px 10px;
+}
+
+main.comics .main-right img {
+    margin-top: 15px;
+    width: 250px;
+    border: 1px solid white;
+}
+
+
+/* /main */
+
+
+/* footer */
+
+footer {
+    height: 450px;
+    width: 100%;
+    background-image: url("../img/footer-bg.jpg");
+}
+
+.top-footer {
+    height: 75%;
+}
+
+.top-footer .top-footer-container-80 {
+    background-image: url("../img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+}
+
+.top-footer .top-footer-container-80 .top-footer-left {
+    display: flex;
+    height: 100%;
+}
+
+.top-footer .top-footer-container-80 .top-footer-left .col {
+    color: grey;
+    padding: 20px 10px;
+    margin-right: 20px;
+    font-size: smaller;
+}
+
+.top-footer .top-footer-container-80 .top-footer-left .col h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.top-footer .top-footer-container-80 .top-footer-left .col .link-block {
+    margin-bottom: 10px;
+}
+
+.top-footer .top-footer-container-80 .top-footer-left .col .link-block li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.top-footer .top-footer-container-80 .top-footer-left .col .link-block li:hover {
+    color: white;
+}
+
+.bottom-footer {
+    height: 25%;
+    background-color: #303030;
+}
+
+.bottom-footer .bottom-footer-container-80 {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-footer .bottom-footer-container-80 .bottom-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-footer .bottom-footer-container-80 button {
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid #0282F9;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* /footer */
